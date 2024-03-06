@@ -12,6 +12,7 @@
 		96C79ACC2B98121F00AF5D8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C79ACB2B98121F00AF5D8F /* ContentView.swift */; };
 		96C79ACE2B98122200AF5D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C79ACD2B98122200AF5D8F /* Assets.xcassets */; };
 		96C79AD12B98122200AF5D8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C79AD02B98122200AF5D8F /* Preview Assets.xcassets */; };
+		96C79ADC2B98169300AF5D8F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C79ADB2B98169300AF5D8F /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		96C79ACB2B98121F00AF5D8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96C79ACD2B98122200AF5D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96C79AD02B98122200AF5D8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96C79ADB2B98169300AF5D8F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		96C79ADD2B98BF4800AF5D8F /* HeartbeatSwiftUI Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HeartbeatSwiftUI Watch App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 		96C79AC82B98121F00AF5D8F /* HeartbeatSwiftUI Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				96C79ADD2B98BF4800AF5D8F /* HeartbeatSwiftUI Watch App.entitlements */,
+				96C79ADB2B98169300AF5D8F /* LocationManager.swift */,
 				96C79AC92B98121F00AF5D8F /* HeartbeatSwiftUIApp.swift */,
 				96C79ACB2B98121F00AF5D8F /* ContentView.swift */,
 				96C79ACD2B98122200AF5D8F /* Assets.xcassets */,
@@ -194,6 +199,7 @@
 			files = (
 				96C79ACC2B98121F00AF5D8F /* ContentView.swift in Sources */,
 				96C79ACA2B98121F00AF5D8F /* HeartbeatSwiftUIApp.swift in Sources */,
+				96C79ADC2B98169300AF5D8F /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HeartbeatSwiftUI Watch App/HeartbeatSwiftUI Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HeartbeatSwiftUI Watch App/Preview Content\"";
@@ -356,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HeartbeatSwiftUI Watch App/HeartbeatSwiftUI Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HeartbeatSwiftUI Watch App/Preview Content\"";
